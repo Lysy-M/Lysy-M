@@ -1,45 +1,121 @@
 # Michał Łysiński
 
-**Administrator IT | Homelab | Proxmox | Monitoring | Security | Automation**
+### Administrator IT | System Administrator | Infrastructure | Monitoring | Security
 
 Warszawa, Polska  
 [LinkedIn](https://www.linkedin.com/in/micha%C5%82-%C5%82ysy-%C5%82ysi%C5%84ski-93532997/) · [GitHub](https://github.com/Lysy-M)
 
+---
+
 ## O mnie
 
-Jestem administratorem IT z doświadczeniem w środowisku Windows i Active Directory, wsparciu użytkowników, diagnostyce sprzętu, systemów oraz sieci.
+Administrator IT z doświadczeniem w środowisku Windows, Active Directory, wsparciu użytkowników, diagnostyce systemów, sprzętu oraz sieci.
 
-Poza doświadczeniem zawodowym rozwijam własne środowisko laboratoryjne, w którym łączę administrację Linux/Windows, wirtualizację, monitoring, bezpieczeństwo, backup i automatyzację. LAB służy mi do testowania konfiguracji, aktualizacji, integracji narzędzi i scenariuszy awarii w kontrolowanym środowisku.
+Poza doświadczeniem zawodowym rozwijam własne rozbudowane środowisko laboratoryjne, w którym praktycznie administruję systemami Linux i Windows, wirtualizacją, monitoringiem, bezpieczeństwem, backupem oraz automatyzacją.
 
-## Obszary, w których pracuję
+LAB wykorzystuję do testowania konfiguracji, aktualizacji, integracji usług, scenariuszy awarii, monitoringu oraz analizy zdarzeń bezpieczeństwa.
 
-- **Systemy:** Windows, Windows Server, Linux — Debian, Ubuntu
-- **Tożsamość i dostęp:** Active Directory, konta i uprawnienia użytkowników
-- **Wirtualizacja:** Proxmox VE, maszyny wirtualne, kontenery
-- **Backup:** Proxmox Backup Server, UrBackup, scenariusze odtwarzania
-- **Monitoring:** Zabbix
-- **Security / SIEM / IDS:** Wazuh, Suricata, EveBox, Nessus
-- **Sieci:** LAN/WAN, VPN, Tailscale, MikroTik, Sophos XG
-- **Automatyzacja:** Bash, PowerShell, Jenkins, n8n, Git
-- **AI lokalne:** NVIDIA Jetson, Ollama, Open WebUI
+---
 
-## Projekty
+## Główne obszary
+
+| Obszar | Technologie |
+|---|---|
+| **Systemy** | Windows, Windows Server, Debian, Ubuntu, Kali Linux, Parrot Security |
+| **Tożsamość i dostęp** | Active Directory, konta, grupy i uprawnienia |
+| **Wirtualizacja** | Proxmox VE, VM, LXC, Docker |
+| **Monitoring** | Zabbix |
+| **SIEM / Security** | Wazuh, Suricata, EveBox, Nessus |
+| **Backup** | Proxmox Backup Server, UrBackup |
+| **Sieci** | LAN/WAN, VPN, Tailscale, MikroTik, Sophos XG |
+| **Automatyzacja** | Bash, PowerShell, Jenkins, n8n, Git |
+| **Local AI** | NVIDIA Jetson, Ollama, Open WebUI |
+
+---
+
+## Featured Projects
 
 ### Cybersecurity & Infrastructure Homelab
-Własne środowisko do praktycznej nauki i testów administracji systemami, wirtualizacji, monitoringu, backupu, automatyzacji i bezpieczeństwa.
 
-Repozytorium: `cybersecurity-infrastructure-homelab`
+Rozbudowane środowisko laboratoryjne obejmujące:
+
+- 3-węzłowy klaster Proxmox VE,
+- systemy Linux i Windows,
+- monitoring Zabbix,
+- SIEM Wazuh,
+- IDS Suricata + EveBox,
+- skanowanie podatności Nessus,
+- Proxmox Backup Server i UrBackup,
+- MikroTik i Sophos XG,
+- automatyzację Bash / PowerShell / Jenkins / n8n,
+- lokalne modele AI na NVIDIA Jetson.
+
+Repozytorium zawiera zanonimizowaną architekturę oraz rzeczywiste screenshoty działającego środowiska.
+
+➡️ [cybersecurity-infrastructure-homelab](https://github.com/Lysy-M/cybersecurity-infrastructure-homelab)
+
+---
 
 ### Admin Scripts
-Zbiór bezpiecznych skryptów do diagnostyki i codziennej administracji systemami Linux i Windows.
 
-Repozytorium: `admin-scripts`
+Praktyczne skrypty Bash i PowerShell do diagnostyki i codziennej administracji systemami Linux oraz Windows.
+
+Obejmują m.in.:
+
+- kontrolę stanu systemu,
+- monitoring usług,
+- diagnostykę sieci,
+- inwentaryzację Windows,
+- analizę Event Log,
+- kontrolę backupów.
+
+➡️ [admin-scripts](https://github.com/Lysy-M/admin-scripts)
+
+---
 
 ### n8n Cybersecurity Workflows
-Zanonimizowane przykłady workflow do automatyzacji zbierania danych, raportowania i wspomagania pracy administracyjnej.
 
-Repozytorium: `n8n-cybersecurity-workflows`
+Zanonimizowane przykłady workflow n8n związanych z automatyzacją pracy administratora i bezpieczeństwa.
 
-## Podejście do pracy
+Przykłady obejmują:
 
-Najbardziej interesuje mnie praktyczne rozwiązywanie problemów: od warstwy sieciowej i systemowej po działającą usługę. Staram się rozumieć zależności między komponentami, monitorować środowisko i automatyzować powtarzalne zadania.
+- triage alertów bezpieczeństwa,
+- automatyczne przetwarzanie informacji,
+- techniczny briefing cyberbezpieczeństwa.
+
+➡️ [n8n-cybersecurity-workflows](https://github.com/Lysy-M/n8n-cybersecurity-workflows)
+
+---
+
+## Jak pracuję
+
+Najbardziej interesuje mnie praktyczne rozwiązywanie problemów — od warstwy sieciowej i systemowej aż do działającej usługi.
+
+W swoim LAB-ie koncentruję się na:
+
+- diagnozowaniu przyczyn problemów zamiast wyłącznie ich objawów,
+- monitorowaniu dostępności i wydajności usług,
+- analizie logów i alertów,
+- wykonywaniu backupów przed zmianami o podwyższonym ryzyku,
+- dokumentowaniu wykonanych zmian,
+- automatyzacji powtarzalnych czynności administracyjnych.
+
+---
+
+## Aktualnie rozwijam
+
+- automatyzację administracji systemami,
+- monitoring i korelację zdarzeń bezpieczeństwa,
+- integrację Wazuh / Suricata / Zabbix,
+- scenariusze disaster recovery,
+- lokalne AI wspierające diagnostykę,
+- automatyzację workflow w n8n.
+
+---
+
+### Kontakt
+
+**Warszawa, Polska**
+
+[LinkedIn](https://www.linkedin.com/in/micha%C5%82-%C5%82ysy-%C5%82ysi%C5%84ski-93532997/)  
+[GitHub](https://github.com/Lysy-M)
