@@ -50,13 +50,29 @@ Rozbudowane środowisko laboratoryjne obejmujące:
 - automatyzację Bash / PowerShell / Jenkins / n8n,
 - lokalne modele AI na NVIDIA Jetson.
 
-Repozytorium zawiera zanonimizowaną architekturę oraz rzeczywiste screenshoty działającego środowiska.
+Repozytorium zawiera zanonimizowaną architekturę oraz zanonimizowane screenshoty z działającego środowiska.
 
 ➡️ [cybersecurity-infrastructure-homelab](https://github.com/Lysy-M/cybersecurity-infrastructure-homelab)
 
 ---
 
-### Admin Scripts
+### Windows Server / Active Directory Lab
+
+Środowisko administracyjne oparte o Windows Server 2019, Active Directory i DNS.
+
+Zakres projektu:
+
+- fizyczny Windows Server 2019 pełniący rolę kontrolera domeny,
+- Active Directory, DNS, konta i grupy,
+- LAPS i administracja uprawnieniami,
+- Windows 10 K-01 dołączony do domeny,
+- Windows 10 na Proxmox VE przygotowywany do integracji z domeną,
+- Windows 10/11 uruchamiane na VirtualBox na Debian AI,
+- zdalne zarządzanie przez RDP, SSH i WinRM.
+
+➡️ [windows-server-ad-virtualbox-lab](https://github.com/Lysy-M/windows-server-ad-virtualbox-lab)
+
+## Admin Scripts
 
 Praktyczne skrypty Bash i PowerShell do diagnostyki i codziennej administracji systemami Linux oraz Windows.
 
